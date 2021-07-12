@@ -13,7 +13,7 @@ exports.getPerson = async (res) => {
         { $sort: { maxScore: -1 } }
 
 
-//         db.persons.aggregate([
+//         await Person.aggregate([
 //     {
 //       $project: {
 //         _id: 0,
